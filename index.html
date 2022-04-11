@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - #ImersaoDev - 01 - Calculadora de média</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title> Imersao Dev Alura - Aula 01 </title>
+</head>
+
+<body>
+  <div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <h2 class="alura-aula">Aula 01</h2>
+  </div>
+  <div class="container">
+
+    <div class="cx_alura">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="im_dev_logo" alt="" />
+      <div class="bg_tt">
+        <span class="txt_tt">
+          CALCULADORA DE MÉDIA </spam>
+      </div>
+      <h1 class="desc_tt"> descubra qual a sua média de nota de todas as provas!</h1>
+
+    </div>
+
+    <div class="boxs" name="calculadora">
+      <h2> Insira Suas Notas </h2>
+      <ul class="ListNote">
+        <li>
+          <label for="FirstNote">1º Nota: </label>
+          <input type="number" class="boxs_label" id="nota1" name="nota1" value="" required />
+        </li>
+
+        <li>
+          <label for="SecNote">2º Nota: </label>
+          <input type="number" class="boxs_label" id="nota2" name="nota2" value="" required />
+        </li>
+        <li>
+          <label for="ThrNote">3º Nota: </label>
+          <input type="number" class="boxs_label" id="nota3" name="nota3" value="" required />
+        </li>
+        <li>
+          <label for="FourNote">4º Nota: </label>
+          <input type="number" class="boxs_label" id="nota4" name="nota4" value="" required />
+        </li>
+
+        <section>
+          <input type="button" class="box_calc" value="Calcular" id="bttn1" onclick="calcular()">
+
+          <button class="box_result" value="Média" id="result_">Média
+
+        </section>
+
+        <h2 class="AR" id="AR"></h2>
+
+        <div class="container2">
+          <div class="box_tt">
+            <spam class="temp_tt_"> INSIRA A TEMPERATURA </spam>
+            <spam class="temp_tt"> CONVERSOR DE TEMPERATURA </spam>
+            <spam class="graus">ºC</spam>
+            <input type="number" class="graus_" id="valor" name="valor" />
+          </div>
+
+          <div class="weather_display">
+
+            <button type="submit" class="box_calc_temp" onclick="Fah()">Fahrenheit</button>
+            <button type="submit" class="box_calc_temp" onclick="Kelvin()">Kelvin</button>
+
+            <h3 class="result" id="valorConvertido"></h3>
+          </div>
+
+        </div>
+<!-- partial -->
+  <script  src="js/script.js"></script>
+
+</body>
+</html>
