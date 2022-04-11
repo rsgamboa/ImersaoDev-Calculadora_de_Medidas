@@ -8,3 +8,7 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/rsgamboa/pen/wver
 1- Criar uma calculadora de média das notas.
 
 2- Criar um conversor de temperatura de celsius para farenheit e kelvin.
+
+<div align="center">
+  <img src="img/prt-calc.png">
+  </div>
